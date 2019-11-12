@@ -5,6 +5,7 @@ defmodule LibraryCatalog.Book do
   schema "books" do
     field :title, :string
     field :available, :boolean, default: false
+    belongs_to :author, LibraryCatalog.Author
   end
 
   def changeset(struct, params) do
