@@ -57,4 +57,4 @@ For these exercises you'll want to start on the master branch.  The "with-author
 
 3. Add a changeset to the author schema. [How?](docs/AddChangeset.md)
 
-4. Run a query [How?](docs/AddQuery.md)
+4. Run a query to get the availability of a book by title.  You may need to use `Repo.insert` to populate your tables with some books. [How?](docs/AddQuery.md)
