@@ -2,7 +2,7 @@
 The purpose of this project is to illustrate the basics of using Ecto in an Elixir project, using the example of a backend/database for a library catalog.
 
 ## Prerequisites
-Have a postgres database running using port 5432.  If you already have one up, you may need to edit the connection details in `library_catalog/config/config.exs`. 
+Before starting you'll need postgres up and running using port 5432.  If you already have postgres up, you may need to edit the connection details in `library_catalog/config/config.exs`. 
 
 To start up a Postgres Docker container that exposes port 5432, you can use the following commands (once you have docker running). The first command to pull the postgres image is only needed if you haven't previously done so.
 ```
