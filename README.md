@@ -43,3 +43,13 @@ iex(#)> LibraryCatalog.Repo.get_by(LibraryCatalog.Book, title: "Lord of the Ring
 ```
 
 ## Exercises
+
+For these exercises you'll want to start on the master branch.  The "with-authors" branch is updated with the completed exercises.
+
+1. Add a migration to create an authors table. Assume each book can only have one author, but authors can be associated with multiple books.  You'll need to update the book table/schema to account for the author. [How?](docs/AddMigration.md)
+
+2. Add an author schema and update the book schema with the new author id field. [How?](docs/AddSchema.md)
+
+3. Add a changeset to the author schema. [How?](docs/AddChangeset.md)
+
+4. Run a query [How?](docs/AddQuery.md)
