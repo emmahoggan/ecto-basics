@@ -27,3 +27,10 @@ defmodule LibraryCatalog.Book do
   end
 end
 ```
+
+You can verify that the schemas are correctly associated by running `Ecto.build_assoc/3`.  E.g., in iex run:
+
+```
+iex(#)> author = %LibraryCatalog.Author{firstname: "JK", lastname: "Rowling"}
+iex(#)> book = Ecto.build_assoc(author, :books, %{title: "Harry Potter"})
+```
